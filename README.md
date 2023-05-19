@@ -1,2 +1,12 @@
 # Bike-Sharing-Demand-Prediction
 albin2122/Bike-Sharing-Demand-Prediction 
+Bike sharing systems are a means of renting bicycles where the process of obtaining rental, and bike return is automated via a network of certain locations throughout a city. Using these systems, people are able rent a bike from a location and return it. Bike rental is useful since people tend to travel by themselves as their wish to anywhere at any point of time.With the onset of Industry 4.0, integration of Internet of Things (IoT) systems with bike-sharing ecosystem has eased the rental process to a significant extent. Real-time tracking of bikes, traffic density, and climate variables aids in gaining useful knowledge about trends, and patterns of renting process, thereby allowing an incisive prediction to meet future demand. \
+
+For our project, the dataset contained per day Bike Rental Count with 8760 entries, possessing 14 attributes. The dataset contains weather information (Temperature, Humidity, Windspeed, Visibility, Dewpoint, Solar radiation, Snowfall, Rainfall), the number of bikes rented per hour and date information.The primary objective was to build a superior statistical model to predict the number of bicycles that can be rented with the availability of data and understand the trends and factors affecting the rented bike count on a particular day.
+The dataset contain numerical as well as categorical data, it is important to deal with categorical variables such as Seasons, Functioning Day, and Holiday. These categorical variable were converted into numerical depictions to fit into our models.And for the rest numerical variables we could have the detailed information in terms of central tendency which is highly beneficial for our model building.
+Dataset doesnot contains any null values or any duplicate values. We extracted weekdays and weekend and month from date column and removed it, since it we just need information about month and weekdays. Then we had done some EDA on the data to find the relationship between the data and how it would help us in predicting the model. We found that
+
+There is high demand in the morning 8AM and in evening 6PM
+as the people might be going to their work at morning 8AM and returning from their work at the evening 6PM.
+
+When the rainfall was less, people have booked more bikes except some few cases since drenching in the rain may have caused it
